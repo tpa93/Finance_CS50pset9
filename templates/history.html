@@ -1,0 +1,32 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    History
+{% endblock %}
+
+{% block main %}
+    <section>
+        <h5> Current stocks holding</h5>
+        <table>
+            <thead>
+                <th>Transaction type</th>
+                <th>Symbol</th>
+                <th>Price per share</th>
+                <th>Shares</th>
+                <th>Date and Time</th>
+            </thead>
+            <tbody>
+                {% for transaction in transaction_data %}
+                <tr>
+                    <td>{{transaction.transaction_type}}</td>
+                    <td>{{transaction.symbol}}</td>
+                    <td>{{transaction.price_per_share | usd}}</td>
+                    <td>{{transaction.shares}} </td>
+                    <td>{{transaction.timestamp}}</td>
+                </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+    </section>
+
+{% endblock %}

@@ -1,0 +1,45 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    Home
+{% endblock %}
+
+{% block main %}
+    <section>
+        <h5> Current stocks holding</h5>
+        <table>
+            <thead>
+                <th>Name</th>
+                <th>Shares</th>
+                <th>Price</th>
+                <th>Total</th>
+            </thead>
+            <tbody>
+                {% for stock in depot %}
+                <tr>
+                    <td>{{stock.symbol}}</td>
+                    <td>{{stock.value}}</td>
+                    <td>{{stock.price | usd}}</td>
+                    <td>{{stock.total | usd}}</td>
+                </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+    </section>
+
+    <section>
+        <h5> Current cash balance</h5>
+        <table>
+            <thead>
+                <th>Credit</th>
+                <th>Grand total</th>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>{{user_credit | usd}}</td>
+                    <td>{{grand_total | usd}}</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+{% endblock %}
