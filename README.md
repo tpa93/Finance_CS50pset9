@@ -1,6 +1,7 @@
 # Finance
 # CS50 problem set week 9 - python flask
 This repository shows my implementation of the related problem set.
+https://cs50.harvard.edu/x/2023/psets/9/finance/
 
 During week 9 in CS50 the problem set given was to create an web application with html, css, jinja and python/flask.
 With this web application following features should be simplified possible:
