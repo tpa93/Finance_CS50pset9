@@ -4,7 +4,7 @@ This repository shows my implementation of the related problem set.
 https://cs50.harvard.edu/x/2023/psets/9/finance/
 
 During week 9 in CS50 the problem set given was to create an web application with html, css, jinja and python/flask.
-With this web application following features should be simplified possible:
+With this web application following features are simplified possible:
 1. register new user
 2. login
 3. check stock quotes
@@ -23,7 +23,7 @@ Given by the course was the following base structur of the project:
 The implementation of the features mentioned above were up to the participant.
 Feel free to explore my implementation. I#m open for any feedback.
 
-Following packages needed to run locally with "flask run"
+Following packages are needed to run locally with "flask run"
 CS50
 flask
 flask-session
