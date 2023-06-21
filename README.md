@@ -1,9 +1,9 @@
 # Finance
 # CS50 problem set week 9 - python flask
-This repository shows my implementation of the related problem set.
+This repository shows my implementation of the related problem set.<br>
 https://cs50.harvard.edu/x/2023/psets/9/finance/
 
-During week 9 in CS50 the problem set given was to create an web application with html, css, jinja and python/flask.
+During week 9 in CS50 the problem set given was to create an web application with html, css, jinja and python/flask.<br>
 With this web application following features are simplified possible:
 1. register new user
 2. login
@@ -20,12 +20,12 @@ Given by the course was the following base structur of the project:
 - helpers.py
 - requirements.txt
 
-The implementation of the features mentioned above were up to the participant.
-Feel free to explore my implementation. I#m open for any feedback.
+The implementation of the features mentioned above were up to the participant.<br>
+Feel free to explore my implementation. I'm open for any feedback.
 
-Following packages are needed to run locally with "flask run"
-CS50
-flask
-flask-session
-requests
-pytz
+Following packages are needed to run locally with "flask run"<br>
+CS50<br>
+flask<br>
+flask-session<br>
+requests<br>
+pytz<br>
